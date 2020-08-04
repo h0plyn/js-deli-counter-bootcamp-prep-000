@@ -19,4 +19,8 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${firstCustomer}.`;
   };
 
-}
+};
+
+function currentLine(katzDeliLine) {
+  
+};

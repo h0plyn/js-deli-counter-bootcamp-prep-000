@@ -23,8 +23,6 @@ function nowServing(katzDeliLine) {
 
 function currentLine(arr) {
   
-  arr.length === 0 ? return "The line is currently empty." :
-  
-  return `The line is currently: 1. ${arr[0]}, 2. ${arr[1]}, 3. ${arr[2]}
+  arr.length === 0 ? "The line is currently empty." : `The line is currently: 1. ${arr[0]}, 2. ${arr[1]}, 3. ${arr[2]}`
   
 };

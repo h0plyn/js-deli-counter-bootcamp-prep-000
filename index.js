@@ -21,10 +21,10 @@ function nowServing(katzDeliLine) {
 
 };
 
-function currentLine(katzDeliLine) {
+function currentLine(arr) {
   
-  katzDeliLine.length === 0 ? return "The line is currently empty" :
+  arr.length === 0 ? return "The line is currently empty." :
   
-  
+  return `The line is currently: 1. ${arr[0]}, 2. ${arr[1]}, 3. ${arr[2]}
   
 };
